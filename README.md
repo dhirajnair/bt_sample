@@ -11,6 +11,6 @@
 </ol>
 
 
-<h2>Below env var needed<h/2>
-  
-GOOGLE_APPLICATION_CREDENTIALS=
+<h2>Below env var needed<h2>
+<p><code>GOOGLE_APPLICATION_CREDENTIALS</code>.</p>
+
