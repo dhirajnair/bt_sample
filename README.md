@@ -1,12 +1,16 @@
 # bt_sample
-Sample code to fetch data from GCP Bigtable. 
+<h1>Sample code to fetch data from GCP Bigtable.</h1>
 
-Below program arguments needed
-System.out.println("ProjectId:"+args[0]);
-System.out.println("InstanceId:"+args[1]);
-System.out.println("TableId:"+args[2]);
-System.out.println("Columns:"+args[3]);// comma separated columsn names. First value is "key", which is bigtable row key
-System.out.println("Output File Path:"+args[4]);// path to csv file that will have the data
+<h2>Below program arguments needed</h2>
+<ol>
+<li>"ProjectId:"+args[0]</li>
+<li>"InstanceId:"+args[1]</li>
+<li>"TableId:"+args[2]</li>
+<li>"Columns:"+args[3]: Comma separated columns names. First value is "key", which is bigtable row key</li>
+<li>"Output File Path:"+args[4]:  path to csv file that will have the data</li>
+</ol>
 
-Below env var needed
+
+<h2>Below env var needed<h/2>
+  
 GOOGLE_APPLICATION_CREDENTIALS=
